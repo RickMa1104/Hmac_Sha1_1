@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HMac_SHA1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\clark\AppData\Local\Temp\RSPA945.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/HMac_SHA1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\360极速浏览器下载\HMac_SHA1\HMac_SHA1.cpp"
+]
+Creating command line "cl.exe @C:\Users\clark\AppData\Local\Temp\RSPA945.tmp" 
+Creating temporary file "C:\Users\clark\AppData\Local\Temp\RSPA946.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/HMac_SHA1.pdb" /debug /machine:I386 /out:"Debug/HMac_SHA1.exe" /pdbtype:sept 
+".\Debug\HMac_SHA1.obj"
+]
+Creating command line "link.exe @C:\Users\clark\AppData\Local\Temp\RSPA946.tmp"
+<h3>Output Window</h3>
+Compiling...
+HMac_SHA1.cpp
+C:\360极速浏览器下载\HMac_SHA1\HMac_SHA1.cpp(238) : warning C4715: 'f' : not all control paths return a value
+Linking...
+
+
+
+<h3>Results</h3>
+HMac_SHA1.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
